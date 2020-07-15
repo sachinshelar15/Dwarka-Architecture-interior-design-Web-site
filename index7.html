@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>
+		Our Design
+	</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="home design, home interior design, house design">
+	<meta name="author" content="Vishal pawar">
+	<meta name="description" content="A website that I made for practising web designing skills. This website is made for an hypothetical company which focuses on home interior design.">
+	<link rel="stylesheet" href="interior_style6.css">
+	<link rel="stylesheet" href="interior_style.css">
+</head>
+
+<body >
+
+<style>
+
+body {
+  background-image: url('images/bg16.jpg');
+  background-repeat: no-repeat;
+ 
+  background-size:cover;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+
+  <div align="right">
+<div class="middle-btn" style="margin-top : 90px;">
+				<a href="index.html" target="_self">
+					Home
+				</a>
+				<a href="index2.html" target="_self">
+					Leaving Room Design
+				</a>
+				<a href="index3.html" target="_self">
+					Kitchen Design
+				</a>
+				<a href="index4.html" target="_self">
+					 Bedroom Design
+				</a>
+				<a href="index5.html" target="_self">
+					Kids Bedroom Design 
+				</a>
+				<a href="index6.html" target="_self">
+					Toilet Design 
+				</a>
+			</div>
+			</div>
+	<u><font color="white" ><div class="gallery">Layout Design</div></font></u>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<div class="row">
+  <div class="column">
+    <img src="Layout/l1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" height="300"  style="width:100%"  >
+  </div>
+  <div class="column">
+    <img src="Layout/l2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l4.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="column">
+    <img src="Layout/l7.jpg"onclick="openModal();currentSlide(4)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="column">
+    <img src="Layout/l9.jpg"onclick="openModal();currentSlide(7)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l10.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l3.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  </div>
+  
+   <div class="row">
+  <div class="column">
+    <img src="Layout/l11.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l12.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l13.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="Layout/L14.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l15.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Layout/l16.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" height="300" style="width:100%">
+  </div>
+</div>
+
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 </div>
+      <img src="layout/l1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 </div>
+      <img src="layout/l2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 </div>
+      <img src="layout/l4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 </div>
+      <img src="layout/l7.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">5 </div>
+      <img src="layout/l5.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">6 </div>
+      <img src="layout/l6.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">7 </div>
+      <img src="layout/l9.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">8 </div>
+      <img src="layout/l10.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">9 </div>
+      <img src="layout/l3.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 </div>
+      <img src="layout/l11.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 </div>
+      <img src="layout/l12.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 </div>
+      <img src="layout/l13.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 </div>
+      <img src="layout/l14.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 </div>
+      <img src="layout/l15.jpg" style="width:100%">
+    </div>
+	
+	
+		
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="layout/l1.jpg" onclick="currentSlide(1)"height="200"  style="width:100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="layout/l2.jpg" onclick="currentSlide(2)" height="200"style="width:100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="layout/l4.jpg" onclick="currentSlide(3)"height="200"  style="width:100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="layout/l7.jpg" onclick="currentSlide(4)" height="200" style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l5.jpg" onclick="currentSlide(5)" height="200" style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l6.jpg" onclick="currentSlide(6)"height="200"  style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l9.jpg"onclick="currentSlide(7)" height="200" style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l10.jpg" onclick="currentSlide(8)"height="200"  style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l3.jpg" onclick="currentSlide(9)"height="200"  style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l11.jpg" onclick="currentSlide(10)"height="200"  style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l12.jpg" onclick="currentSlide(10)"height="200"  style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l13.jpg" onclick="currentSlide(10)" height="200" style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l14.jpg" onclick="currentSlide(10)" height="200" style="width:100%">
+    </div>
+	<div class="column">
+      <img class="demo" src="layout/l15.jpg" onclick="currentSlide(10)"height="200"  style="width:100%">
+    </div>
+	
+	
+	
+  </div>
+</div>
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+    
+  </div>
+
+</div>
+</body>
+</html>
